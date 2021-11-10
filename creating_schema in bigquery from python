@@ -1,0 +1,33 @@
+def createdailyHourTable(clientConnection, project, schema, table_name):
+    tableId = project + "." +str(schema) + "." + table_name 
+    print(tableId)
+    try: 
+        connection.get_table(tableId)
+        return
+    except:
+        pass
+    structure = [
+        bigquery.SchemaField("campo1", "TIMESTAMP"),
+        bigquery.SchemaField("campo2", "INTEGER"),
+        bigquery.SchemaField("campo3", "STRING"),
+        bigquery.SchemaField("campo4", "STRING"),
+        bigquery.SchemaField("campo5", "STRING"),
+        bigquery.SchemaField("campo6", "STRING"),
+        bigquery.SchemaField("campo7", "INTEGER"),
+        bigquery.SchemaField("campo8", "STRING"),
+        bigquery.SchemaField("campo9", "FLOAT"),
+        bigquery.SchemaField("campo10", "FLOAT"),
+        bigquery.SchemaField("campo11", "FLOAT"),
+        bigquery.SchemaField("campo12", "FLOAT"),
+        bigquery.SchemaField("campo13", "FLOAT")]
+    table = bigquery.Table(tableId, schema=structure)
+    table.time_partitioning = bigquery.TimePartitioning(
+        type_= bigquery.TimePartitioningType.DAY,
+        field="campo1",  ###----> bacuase I want to partitionate the table by a campo1 timestamp dates 
+        expiration_ms=13140000000,
+    )
+    clientConnection.create_table(table)
+
+schema=DATA_SET_NAME
+table = 'TABLE_NAME'
+createdailyHourTable(clientBigQueryLookerAnalytics, BIG_QUERY_PROJECT", schema, table)
