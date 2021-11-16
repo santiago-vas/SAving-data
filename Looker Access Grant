@@ -27,6 +27,9 @@ view: fleet_maintenance_daily_aggregate{
       #   <a href="https://locationworld.cloud.looker.com/dashboards-next/912"><img src="https://images.geo-track.com/www/common/looker/homepage.png" width="70" height="70"/></a>;;
 
     }
+    
+view: fleet_maintenance_daily_aggregate{
+  sql_table_name: `table.name`;;
     dimension: homw {
       html:
         <a href="https://locationworld.cloud.looker.com/dashboards-next/243"><img src="https://images.geo-track.com/www/common/looker/homepage.png" width="70" height="70"/></a>;;
