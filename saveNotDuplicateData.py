@@ -1,7 +1,5 @@
 def saveDailyData(finalDataFrame,clientId,env):
-    
     if len(finalDataFrame.index) > 0:
-        
         try:
             table_ref = "lw-looker." + str(clientId) + "."+ "fleet_maintenance"
             table = clientBigQueryLookerAnalytics.get_table(table_ref)
