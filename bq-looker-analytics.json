@@ -1,12 +1,7 @@
 {
   "type": "service_account",
   "project_id": "lw-looker",
-  "private_key_id": "99510098efcd8866edac566f83d887e8555eb46a",
+  "private_key_id": "995eb46a",
   "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCxo78GJWKSKKQk\ne8Br1ij2eWHV3AjHn3YOiZ5av6f7CphEN4U3X5Wuo7ujP45mYXseIFcF0UaR3Geg\na8fFIHcDLOrgW7ABk5JLIZiW/n7UlcXFj6am7xoWp1bLv5ZHrpvxTHDsbenqgwJB\nPD/fMGWmHvjULs3EtQHHUwGMjMkSUVzK5yYVGieKkk6P9QMCHmeUqpdWcWvCXo8p\nH0S3rwEYIqke9MXqR/rb0PlpQCWpj9TWXdjDnwWKGhfGSTdnYxN6RKvymL5eS4pz\nUUyWNz6RsKR+XeHrGFpXOlu/5vMuMPGiNzR/Yfq8I2nWy6dOwdBaBhDj3X/t1ATU\ng+GH6cMHAgMBAAECggEALUDpP5ATkedvlWm/Rdl7evrGLTyOMgiSAzcU08qCaSY0\nTyCTu90KXUCR4w8kYDmSK0US1kUPhMYQ0iHS9QmFuBXfygMhje1Btgkbfc/ckJyN\nEvy6+EjuLPo5VtN6Xc2CJZETLW/8yMTSNLs8DEgghRbbzfYUbnmsN9KSEPOmn5cU\nt06J4LMkDIICwHHlQA4wJvUEDMQjBWj7kQQoRc4I+0UibC1ouaAZxJk4sheua7M1\nC4Z//1d9yh+5+crjeAHfftA++avUeFPMVvXG0VNAXQ80JgZI7DUfD2epTLCDn7co\nzAUjvPnEtgW12fPO+QW2CuOEIUxpQvrMuoz79YPwqQKBgQDj8EvHX3PWSEagV/3+\n3sJ1Kw0tT+yPl/x0pMU/Q8hDf8cRa1v2OuS1ZxjuQToZ6ZWa6NwNvMQmO+8tWku6\ndd1IaCuV9WLIkYX80vg3kWa3rbGJ5r2KWuhks96GY3LgMAT4tSihKW3878E6n5bC\n5YnA7AY2GU8haAJmYlOb0xdabwKBgQDHgjqBbbZgG26ZOk8FBzkjAoCcMThHvpa+\nZrNxEkDIM4PyhFWFlef96CowaXAnQJe4ZQnUz9yUd/N70jprVaUcoGd9OwvGjheN\n2ECFcy8QA1o4SDUnekKCSLQuiQXkBd1lUr/fXXGCIxprBXhUenF9pSkjxhP/4OgI\nhIQ3GejM6QKBgQDOnlEizgzD7kpPKNQuB6E/8qGENJHcbEpFNeMzAO90+EvsJ2R6\nJFKTeXwo5OmU+Z9Kh9CJh1ZKzkN12gcRY6wN6Zew3HoKE5fgYSDtxhjVYVaxCX9A\n/jzwo/eP3HASdpTbGeRViqeQA4kl6eoQi1++iHTs7y5CuvSJ+JGPi978cwKBgG2j\n8+MNGBzY9n7evG5W+d9zkJpFslg7NTyN1C9fiJp9NRYiA53WNBglbooMZ8YqiTac\n0DpTwTUWdoilj9VMy+BfhoAb4uzLScZ6AXtVQZfbP8mOZSe82LAgpGSuiL43OuRk\nBW4LPEX4ZJxL9UT3xUb3bRRr1rHYN6v2p3Jgmr+BAoGBAIQrVRfkaFuxpCNB+Psk\noxN630Mu6ELG9ltd4AvEsh/QxkSkDdDfjcI2rmXZlk6/yTULTb4EFnVc0P8oXe7f\ndGP8dqeTbCN/w8Y+d2euumR2znm8tcv+PB+CNUqYZUA2Uy03Rze/FJ4sjo08GB3Y\nZ9FaabKvMThXvukwv/F+84ND\n-----END PRIVATE KEY-----\n",
-  "client_email": "gc-prod-srv-jupyter-datacollec@lw-looker.iam.gserviceaccount.com",
-  "client_id": "103331739761044185244",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gc-prod-srv-jupyter-datacollec%40lw-looker.iam.gserviceaccount.com"
+  "client_email": "gcount.com"
 }
